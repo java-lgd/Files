@@ -58,7 +58,7 @@ function pics(){
 		}
 	}
 	
-	this.initpics = function(urls){
+	this.initpics = function(){
 		$("item").each(function(){
 			addpic($(this).attr("url"));
 		});
@@ -75,7 +75,6 @@ function pics_init(urls){
 
 $(function(){
 	picsobject.initpics();
-	
 })
 
 
