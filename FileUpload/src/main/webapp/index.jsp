@@ -1,0 +1,42 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8" isELIgnored="false"%>
+	<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<!DOCTYPE html >
+<html>
+<head>
+<meta charset="UTF-8">
+<title>jQuery带删除功能多图片上传预览插件</title>
+
+<link href="css/index.css" type="text/css" rel="stylesheet">
+
+</head>
+<body>
+
+	<form action="aa">
+
+		<div class="img-box full">
+			<section class=" img-section">
+				<div class="z_photo upimg-div clear">
+					<section class="z_file fl">
+						<img src="img/a11.png" class="add-img">
+					</section>
+				</div>
+				
+				<c:forEach >
+					<item url=""><item>
+				</c:forEach>
+				
+			</section>
+		</div>
+
+		<input type="submit">
+	</form>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/pics.js"></script>
+	<script type="text/javascript"> 
+// 		pics_init([ "/upload/1db67f48-2e86-4088-9f2f-3c19438f2735.jpg",
+//  				"/upload/99e42f74-86c3-4935-a65b-11b6a476e065.jpg",
+//  				"/upload/a52c7276-1cb2-40d2-b0fd-2c6c8cbc2bc3.jpg" ]);
+ 	</script> 
+</body>
+</html>
